@@ -1,4 +1,4 @@
-## SISTEMA DE FACTURACION E DELIVERY STRIPE NODE.JS
+# SISTEMA DE FACTURACION E DELIVERY STRIPE NODE.JS
 
 Esa es una aplicación que conecta Stripe a Node.js.
 Con ella, puedes generar facturas y recibir pagos.
@@ -12,7 +12,7 @@ El usuario entra en su dashboard, dar click en la factura recibida por parametro
 Lugo la factura se cambiara de false a true. El administrador es notificado y envia el paquete al usuario.
 
 
-# CONFIGURAR REPOSITORIO EN MI MAQUINA:
+### CONFIGURAR REPOSITORIO EN MI MAQUINA:
 
 Para iniciar el repositorio, debes primeiro descargar el proyecto en tu maquina y seguir los seguintes pasos:
 npm install
@@ -22,13 +22,13 @@ Dentro del archivo config.js debes agregar su base de datos.
 
 La segunda etapa del proyecto sera publicado pronto, el frontend.
 
-# RECIBIR PAGOS
+### RECIBIR PAGOS
 
 Para empezar a recibir pagos en online, necesitaras enviar el token que sera generado en el frontend, luego debes enviar por params o por el body al charge.source.
 El charge.source es encargado de recibir el token con lass informaciones del client card y procesar el pago.
 El token es valido solamente una unica vez!
 
-# CONFIGURANDO EL ARCHIVO STRIPE.JS
+### CONFIGURANDO EL ARCHIVO STRIPE.JS
 
 Debes cambiar esa info => https://dashboard.stripe.com/test/apikeys
 const stripe = require('stripe')('sk_test_**************');
@@ -39,7 +39,7 @@ Para generar el token puedes utilizar una librertia en angular => https://www.np
 
 Estoy preparando un archivo que sera el Frontend completo de una aplicación de deliveries, donde estare publicando en el mismo repositorio.
 
-# CONFIGURANDO EL ARCHIVO AWS PARA ENVIAR PUSH NOTIFICATION
+### CONFIGURANDO EL ARCHIVO AWS PARA ENVIAR PUSH NOTIFICATION
 
 Debes crear una cuenta en AWS y configurar el simple notification y el push notification.
 
