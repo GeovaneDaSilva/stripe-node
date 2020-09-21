@@ -1,4 +1,4 @@
-# SISTEMA DE FACTURACION E DELIVERY STRIPE NODE.JS
+# SISTEMA DE FACTURACION Y DELIVERY STRIPE NODE.JS
 
 Esa es una aplicación que conecta Stripe a Node.js.
 Con ella, puedes generar facturas y recibir pagos.
